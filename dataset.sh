@@ -1,6 +1,6 @@
 #!/bin/bash
 
-URL="https://github.com/karthickai/deeplearning_inference/releases/download/v1.0.0/dataset_v1.tar"
+URL="https://github.com/karthickai/dippm/releases/download/v1.0.0/dataset_v1.tar"
 
 DATA_FOLDER="data"
 
