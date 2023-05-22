@@ -41,7 +41,7 @@ sh dataset.sh
 python train.py --model_type GraphSAGE --epoch 10
 ```
 
-### How to use DIPPM
+## To use DIPPM
 ```
 import dippm
 import torchvision
