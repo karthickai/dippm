@@ -1,0 +1,27 @@
+# Python-specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.egg
+*.pkl*
+# PyTorch-specific
+*.pth
+*.pt
+
+# Jupyter Notebook-specific
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Environment and dependencies
+.env
+.env.*
+venv/
+env/
+bin/
+lib/
