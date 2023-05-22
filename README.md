@@ -24,7 +24,7 @@ pip install https://data.pyg.org/whl/torch-1.13.0%2Bcu117/torch_sparse-0.6.16%2B
 
 pip install pytorch_lightning==1.9.0
 
-pip install networkx apache-tvm timm
+pip install networkx apache-tvm
 ```
 
 ## Dataset setup
