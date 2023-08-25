@@ -2,7 +2,7 @@
 We have developed a DL Inference Performance Predictive
 Model (DIPPM) that predicts the inference latency, energy, and memory usage of a given input DL model on the NVIDIA A100 GPU. We also devised an algorithm to suggest the appropriate A100 Multi-Instance GPU profile from the output of DIPPM.
 
-For more details: https://arxiv.org/abs/2303.11733
+For more details: https://doi.org/10.1007/978-3-031-39698-4_1
 
 <img alt = "DIPPM Arcitecture"
     src="assets/architecture.png">
@@ -57,12 +57,17 @@ print("Predicted Memory {0} MB, Energy {1} J, Latency {2} ms, MIG {3}".format(*o
 
 ## cite
 ```
-@misc{selvam2023dippm,
-      title={DIPPM: a Deep Learning Inference Performance Predictive Model using Graph Neural Networks}, 
-      author={Karthick Panner Selvam and Mats Brorsson},
-      year={2023},
-      eprint={2303.11733},
-      archivePrefix={arXiv},
-      primaryClass={cs.PF}
+@InProceedings{10.1007/978-3-031-39698-4_1,
+author="Panner Selvam, Karthick
+and Brorsson, Mats",
+title="DIPPM: A Deep Learning Inference Performance Predictive Model Using Graph Neural Networks",
+booktitle="Euro-Par 2023: Parallel Processing",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="3--16",
+isbn="978-3-031-39698-4"
 }
+
+
 ```
